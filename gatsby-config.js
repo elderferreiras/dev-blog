@@ -32,7 +32,7 @@ module.exports = {
       },
     },
     description: `Elder's Blog`,
-    siteUrl: `blog.elderf.com`,
+    siteUrl: `https://elderf.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
