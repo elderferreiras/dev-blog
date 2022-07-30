@@ -27,21 +27,21 @@ const BlogIndex = ({ data }) => {
         const title = post.frontmatter.title || post.fields.slug
         const date = post.frontmatter.date
         return (
-          <article className={blogStyles.article} key={post.fields.slug}>
-            <h2 className={blogStyles.articleTitle}>
-              <Link to={post.fields.slug} itemProp="url">
-                {title}
-              </Link>
-            </h2>
-            <small className={blogStyles.date}>{date}</small>
-            <div className={blogStyles.tags}>
-              {post.frontmatter.tags.map((tag, i) => (
-                <Link key={i} to={`tags/${tag}`} className={blogStyles.tag}>
-                  {tag}
-                </Link>
-              ))}
-            </div>
-          </article>
+          <Link to={post.fields.slug} itemProp="url">
+            <article className={blogStyles.article} key={post.fields.slug}>
+              <h2 className={blogStyles.articleTitle}>
+                  {title}
+              </h2>
+              <small className={blogStyles.date}>{date}</small>
+              <div className={blogStyles.tags}>
+                {post.frontmatter.tags.map((tag, i) => (
+                  <Link key={i} to={`tags/${tag}`} className={blogStyles.tag}>
+                    {tag}
+                  </Link>
+                ))}
+              </div>
+            </article>
+          </Link>
         )
       })}
     </BlogLayout>

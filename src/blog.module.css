@@ -116,6 +116,7 @@ main {
 }
 .articles .article .date {
   display: block;
+  color: var(--white-2);
   font-size: 0.8rem;
 }
 .articles .article .tags {
