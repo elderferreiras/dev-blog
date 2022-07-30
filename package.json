@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-theme-serial-programmer",
+  "name": "blog.elderf.com",
   "private": true,
-  "description": "A gatesby theme for serial programmers (-.-)",
+  "description": "Blog - Elder Patten Ferreira",
   "version": "0.1.0",
-  "author": "Sharad Raj Singh Maurya <dev_sharad@outlook.com>",
-  "bugs": {
-    "url": "https://github.com/sharadcodes/gatsby-theme-serial-programmer"
-  },
+  "author": "elderpattenferreira@gmail.com",
   "dependencies": {
     "gatsby": "^4.1.0",
     "gatsby-plugin-feed": "^4.1.0",
@@ -35,7 +32,6 @@
   "devDependencies": {
     "prettier": "^2.4.1"
   },
-  "homepage": "https://github.com/sharadcodes/gatsby-theme-serial-programmer#readme",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +39,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharadcodes/gatsby-theme-serial-programmer.git"
+    "url": "git+https://github.com/elderferreiras/dev-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
