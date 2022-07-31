@@ -69,6 +69,7 @@ main {
 }
 .text-wrapper p {
   margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 .social-wrapper {
   margin-top: 1rem;
@@ -100,13 +101,11 @@ main {
 .articles .article {
   padding: 2rem;
   background: var(--gray-3);
-  border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
 .articles .article .article-title,
 .articles .article .article-title a {
   color: var(--white-2);
-  font-style: italic;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 130%;
@@ -117,7 +116,8 @@ main {
 .articles .article .date {
   display: block;
   color: var(--white-2);
-  font-size: 0.8rem;
+  font-size: 1rem;
+  line-height: 3rem;
 }
 .articles .article .tags {
   display: flex;
@@ -131,9 +131,9 @@ main {
   color: var(--gray-4);
   background: var(--white-2);
   border-radius: 15px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   padding: 0 0.8rem;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   cursor: pointer;
 }
 /* media query */
